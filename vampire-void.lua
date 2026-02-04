@@ -17,6 +17,11 @@ function M.setup()
     hl(0, "Operator", { fg = "#ff3333" })
     hl(0, "Type", { fg = "#aa0000" })
 
+    hl(0, "Delimiter", { fg = "#ff0000" })
+    hl(0, "@punctuation.bracket", { fg = "#ff0000" })
+    hl(0, "@punctuation.delimiter", { fg = "#ff0000" })
+    hl(0, "@constructor", { fg = "#ff0000" })
+
     hl(0, "IblIndent", { fg = "#222222" })
     hl(0, "IblScope", { fg = "#880000" })
 
@@ -36,10 +41,10 @@ function M.setup()
     hl(0, "FloatBorder", { fg = "#ff0000", bg = "NONE" })
     hl(0, "TelescopeBorder", { fg = "#ff0000" })
 
-    --Lazy
+    -- Lazy UI
     hl(0, "LazyNormal", { bg = "#050505", fg = "#e0e0e0" })
-    hl(0, "LazyBorder", { fg = "#ff0000" })
-    hl(0, "LazyTitle", { fg = "#ff0000", bold = true })
+    hl(0, "LazyBorder", { fg = "#ff0000", bg = "#050505" })
+    hl(0, "LazyTitle", { fg = "#ff0000", bg = "#050505", bold = true })
     hl(0, "LazyButton", { bg = "#111111", fg = "#ff0000" })
     hl(0, "LazyButtonActive", { bg = "#440000", fg = "#ffffff", bold = true })
     hl(0, "LazyH1", { bg = "#ff0000", fg = "#000000", bold = true })
