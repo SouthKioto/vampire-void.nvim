@@ -17,18 +17,18 @@ function M.setup()
     hl(0, "Type", { fg = "#aa0000" })
     hl(0, "Delimiter", { fg = "#ff0000" })
     hl(0, "Constant", { fg = "#ff6666" })
-    hl(0, "Number", { fg = "#ff8888" })
+    hl(0, "Number", { fg = "#aaaaaa" })
     hl(0, "Boolean", { fg = "#ff0000", bold = true })
     hl(0, "Special", { fg = "#ff4444" })
     hl(0, "PreProc", { fg = "#cc0000" })
 
     -- TreeSitter (Rozszerzone kolorowanie składni)
     -- Podstawowe
-    hl(0, "@punctuation.bracket", { fg = "#ff0000" })
-    hl(0, "@punctuation.delimiter", { fg = "#ff0000" })
+    hl(0, "@punctuation.bracket", { fg = "#888888" })
+    hl(0, "@punctuation.delimiter", { fg = "#777777" })
     hl(0, "@constructor", { fg = "#ff0000" })
-    hl(0, "@variable", { fg = "#eeeeee" })
-    hl(0, "@property", { fg = "#dddddd" })
+    hl(0, "@variable", { fg = "#cccccc" })
+    hl(0, "@property", { fg = "#bbbbbb" })
 
     -- Słowa kluczowe
     hl(0, "@keyword", { fg = "#ff0000", bold = true })
@@ -41,10 +41,10 @@ function M.setup()
 
     -- Funkcje i metody
     hl(0, "@function", { fg = "#ffffff", bold = true })
-    hl(0, "@function.call", { fg = "#ffffff" })
+    hl(0, "@function.call", { fg = "#eeeeee" })
     hl(0, "@function.builtin", { fg = "#ffaaaa", bold = true })
-    hl(0, "@method", { fg = "#ffffff" })
-    hl(0, "@method.call", { fg = "#ffffff" })
+    hl(0, "@method", { fg = "#dddddd" })
+    hl(0, "@method.call", { fg = "#cccccc" })
 
     -- Typy i klasy
     hl(0, "@type", { fg = "#aa0000", bold = true })
@@ -54,21 +54,21 @@ function M.setup()
 
     -- Zmienne specjalne
     hl(0, "@variable.builtin", { fg = "#ff4444", italic = true })
-    hl(0, "@variable.parameter", { fg = "#dddddd", italic = true })
-    hl(0, "@variable.member", { fg = "#dddddd" })
-    hl(0, "@constant", { fg = "#ff6666" })
-    hl(0, "@constant.builtin", { fg = "#ff8888" })
+    hl(0, "@variable.parameter", { fg = "#999999", italic = true })
+    hl(0, "@variable.member", { fg = "#aaaaaa" })
+    hl(0, "@constant", { fg = "#bbbbbb" })
+    hl(0, "@constant.builtin", { fg = "#cccccc" })
     hl(0, "@constant.macro", { fg = "#ff7777" })
 
     -- Stringi i liczby
     hl(0, "@string", { fg = "#ff5555" })
     hl(0, "@string.escape", { fg = "#ff8888" })
     hl(0, "@string.special", { fg = "#ff6666" })
-    hl(0, "@number", { fg = "#ff8888" })
+    hl(0, "@number", { fg = "#aaaaaa" })
     hl(0, "@boolean", { fg = "#ff0000", bold = true })
 
     -- Operatory
-    hl(0, "@operator", { fg = "#ff3333" })
+    hl(0, "@operator", { fg = "#999999" })
 
     -- Atrybuty i dekoratory
     hl(0, "@attribute", { fg = "#ff4444" })
@@ -76,7 +76,7 @@ function M.setup()
 
     -- Namespace i moduły
     hl(0, "@namespace", { fg = "#cc0000" })
-    hl(0, "@module", { fg = "#cc0000" })
+    hl(0, "@module", { fg = "#bbbbbb" })
 
     -- Specjalne słowa kluczowe
     hl(0, "@keyword.storage", { fg = "#ff0000", bold = true }) -- static, const, let, var
@@ -89,8 +89,8 @@ function M.setup()
 
     -- Tagi (HTML/JSX)
     hl(0, "@tag", { fg = "#ff0000" })
-    hl(0, "@tag.attribute", { fg = "#ff5555" })
-    hl(0, "@tag.delimiter", { fg = "#ff0000" })
+    hl(0, "@tag.attribute", { fg = "#999999" })
+    hl(0, "@tag.delimiter", { fg = "#888888" })
 
     -- Komentarze specjalne
     hl(0, "@comment.todo", { fg = "#ff0000", bold = true })
