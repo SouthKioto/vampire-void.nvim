@@ -1,6 +1,8 @@
 local M = {}
 
 function M.setup()
+	vim.g.colors_name = "vampire-void"
+
 	local hl = vim.api.nvim_set_hl
 
 	local colors = {
