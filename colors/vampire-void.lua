@@ -1,0 +1,1 @@
+require("vampire-void").setup()
