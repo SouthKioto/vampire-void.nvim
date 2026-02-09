@@ -4,7 +4,7 @@ function M.setup()
 	local hl = vim.api.nvim_set_hl
 
 	local colors = {
-		bg = "NONE",
+		bg = "#080808",
 		fg = "#e0e0e0",
 		red_bright = "#ff0000",
 		red_mid = "#aa0000",
